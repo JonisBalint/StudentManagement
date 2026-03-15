@@ -1,0 +1,13 @@
+<div class="header">
+  <div class="search-bar">
+    <i class="fas fa-search"></i>
+    <input type="text" 
+           [(ngModel)]="searchTerm" 
+           (input)="onSearch()" 
+           placeholder="Search students..." />
+  </div>
+  <div class="user-profile">
+    <div class="user-avatar"><i class="fas fa-user"></i></div>
+    <span>Admin</span>
+  </div>
+</div>
